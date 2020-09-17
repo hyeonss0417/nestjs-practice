@@ -8,6 +8,4 @@ export class CreateMovieDTO {
 
   @IsString({ each: true })
   readonly genres: string[];
-
-  readonly hacked: string;
 }
